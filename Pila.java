@@ -13,7 +13,7 @@ public class Pila<E> implements Stack<E> {
     }
 
     public E peek() {
-        return this.array[top];
+        return this.array[this.top];
     }
 
     public E pop() {

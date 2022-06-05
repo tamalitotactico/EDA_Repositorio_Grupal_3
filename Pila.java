@@ -1,5 +1,13 @@
 public class Pila<E> implements Stack<E> {
 
+    private int top;
+    private E[] array;
+
+    public Pila(int n) {
+        this.array = (E[]) new Object[n];
+        this.top = -1;
+    }
+
     public boolean empty() {
         return false;
     }
@@ -12,8 +20,11 @@ public class Pila<E> implements Stack<E> {
         return null;
     }
 
-    public E push() {
-        return null;
+    public void push(E x) {
+        if (this.top < this.array.length - 1)
+            this.array[++top] = x;
+        else
+            System.out.println("El stack esta lleno ...");
     }
 
     public int search() {

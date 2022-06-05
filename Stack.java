@@ -5,7 +5,7 @@ interface Stack<E> {
 
     E pop();
 
-    E push();
+    void push();
 
     int search();
 }

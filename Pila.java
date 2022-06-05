@@ -9,7 +9,7 @@ public class Pila<E> implements Stack<E> {
     }
 
     public boolean empty() {
-        return false;
+        return this.top == -1;
     }
 
     public E peek() {

@@ -7,5 +7,5 @@ interface Stack<E> {
 
     void push(E x);
 
-    int search();
+    int search(E x);
 }

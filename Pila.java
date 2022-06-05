@@ -27,8 +27,12 @@ public class Pila<E> implements Stack<E> {
             System.out.println("El stack esta lleno ...");
     }
 
-    public int search() {
-        return 0;
+    public int search(E x) {
+        for (int i = 0; i < this.array.length; i++) {
+            if (this.array[i].equals(x))
+                return i;
+        }
+        return -1;
     }
 
 }

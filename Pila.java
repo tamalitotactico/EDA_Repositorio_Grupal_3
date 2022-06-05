@@ -17,7 +17,9 @@ public class Pila<E> implements Stack<E> {
     }
 
     public E pop() {
-        return null;
+        E aux = this.array[this.top];
+        this.array[this.top] = null;
+        return aux;
     }
 
     public void push(E x) {

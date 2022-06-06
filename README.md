@@ -239,7 +239,12 @@
             </tr>
             <tr class="c48">
                <td class="c14" colspan="1" rowspan="1">
-                  <p class="c9"><span class="c4"></span></p>
+                  <p class="c9"><span class="c4">
+                     - https://www.w3schools.com/java/
+                     - https://www.eclipse.org/downloads/packages/release/2022-03/r/eclipse-ide-enterprise-java-and-web-developers
+                     - https://docs.oracle.com/javase/8/docs/api/java/util/Stack.html
+                     - https://docs.oracle.com/javase/8/docs/api/java/util/Queue.html
+                     </span></p>
                </td>
             </tr>
          </tbody>
